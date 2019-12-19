@@ -18,3 +18,8 @@ function busqueda(){
 function limpiar(){
     window.close();
 }
+
+function reiniciar(){
+    document.getElementById("muestraResultado").value="";
+    document.getElementById("buscador").value="";
+}
